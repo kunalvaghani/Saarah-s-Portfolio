@@ -366,7 +366,7 @@ export default function Home() {
             </p>
             <div className="hero-actions" aria-label="Contact and resume actions">
               <a className="button button-primary" href={emailUrl}>
-                Start a conversation <span aria-hidden="true">&nearr;</span>
+                Start a conversation <span aria-hidden="true">&#8599;</span>
               </a>
               <a
                 className="button button-secondary"
@@ -612,7 +612,7 @@ export default function Home() {
             <a className="contact-link" href={emailUrl}>
               <span>Email</span>
               <strong>saarahadnan35146@gmail.com</strong>
-              <span aria-hidden="true">&nearr;</span>
+              <span aria-hidden="true">&#8599;</span>
             </a>
             <a
               className="contact-link"
@@ -622,7 +622,7 @@ export default function Home() {
             >
               <span>LinkedIn</span>
               <strong>linkedin.com/in/saarah-adnan</strong>
-              <span aria-hidden="true">&nearr;</span>
+              <span aria-hidden="true">&#8599;</span>
             </a>
             <a
               className="contact-link"

@@ -38,7 +38,7 @@ test("server-renders the recruiter portfolio", async () => {
   assert.match(html, /aria-label="75\+"/);
   assert.match(html, /aria-label="8"/);
   assert.match(html, /aria-label="10%"/);
-  assert.match(html, /aria-label="3×"/);
+  assert.match(html, /aria-label="3\u00d7"/);
   assert.match(html, /mailto:saarahadnan35146@gmail\.com/);
   assert.match(html, /https:\/\/www\.linkedin\.com\/in\/saarah-adnan/);
   assert.match(html, /\/documents\/Saarah-Adnan-Resume\.pdf/);

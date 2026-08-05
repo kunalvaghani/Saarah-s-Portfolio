@@ -46,7 +46,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: "/og.png",
           width: 1536,
           height: 1024,
-          alt: "Saarah Adnan — Junior Accountant portfolio",
+          alt: "Saarah Adnan \u2014 Junior Accountant portfolio",
         },
       ],
     },

@@ -32,7 +32,7 @@ const metrics: Metric[] = [
     value: 75,
     suffix: "+",
     label: "Tax returns prepared",
-    detail: "UFile · CRA compliant",
+    detail: "UFile \u00b7 CRA compliant",
   },
   {
     value: 8,
@@ -48,8 +48,8 @@ const metrics: Metric[] = [
   },
   {
     value: 3,
-    suffix: "×",
-    label: "Dean’s Honour List",
+    suffix: "\u00d7",
+    label: "Dean\u2019s Honour List",
     detail: "Academic excellence",
   },
 ];
@@ -58,7 +58,7 @@ const experiences: Experience[] = [
   {
     role: "Finance Analyst Intern",
     organization: "Kinectrics Inc. / BWXT",
-    period: "May 2025 — Aug 2025",
+    period: "May 2025 \u2014 Aug 2025",
     location: "Toronto, Ontario",
     summary:
       "Supported finance leaders across Transmission & Distribution Technologies, Isotopes, and Nuclear business units, including two months of high-priority coordination for the CFO.",
@@ -72,8 +72,8 @@ const experiences: Experience[] = [
   },
   {
     role: "Tax Clinic Support Staff",
-    organization: "IGNITE Student Union — Humber Polytechnic",
-    period: "Feb 2026 — Apr 2026",
+    organization: "IGNITE Student Union \u2014 Humber Polytechnic",
+    period: "Feb 2026 \u2014 Apr 2026",
     location: "Toronto, Ontario",
     summary:
       "Prepared personal income tax returns for students and families during a high-volume filing season while protecting accuracy, confidentiality, and client experience.",
@@ -87,7 +87,7 @@ const experiences: Experience[] = [
   {
     role: "Sales Associate",
     organization: "Eataly Sherway Gardens",
-    period: "Nov 2023 — Present",
+    period: "Nov 2023 \u2014 Present",
     location: "Toronto, Ontario",
     summary:
       "Blends customer service with practical inventory reporting and operational decision support across a fast-paced, multi-department environment.",
@@ -119,7 +119,7 @@ const impactStories: ImpactStory[] = [
     eyebrow: "Accounting capstone",
     title: "A practical view of AI in accounting",
     description:
-      "Used a 50-respondent survey and industry literature to assess AI’s implications for reporting, audit efficiency, decision-making, ethics, and governance.",
+      "Used a 50-respondent survey and industry literature to assess AI\u2019s implications for reporting, audit efficiency, decision-making, ethics, and governance.",
   },
 ];
 
@@ -171,9 +171,9 @@ const skillGroups = [
 ];
 
 const supportingExperience = [
-  ["Store Cashier", "Bulk Barn Foods Limited", "Oct 2023 — Jan 2024"],
-  ["Hayya Card Operator", "FIFA World Cup Qatar 2022", "Oct 2022 — Dec 2022"],
-  ["Customer Service Representative", "Nielsen Company", "May 2022 — Aug 2022"],
+  ["Store Cashier", "Bulk Barn Foods Limited", "Oct 2023 \u2014 Jan 2024"],
+  ["Hayya Card Operator", "FIFA World Cup Qatar 2022", "Oct 2022 \u2014 Dec 2022"],
+  ["Customer Service Representative", "Nielsen Company", "May 2022 \u2014 Aug 2022"],
 ];
 
 const linkedinUrl = "https://www.linkedin.com/in/saarah-adnan";
@@ -341,7 +341,7 @@ export default function Home() {
           href="/documents/Saarah-Adnan-Resume.pdf"
           download
         >
-          Download résumé
+          Download r&eacute;sum&eacute;
         </a>
       </header>
 
@@ -355,25 +355,25 @@ export default function Home() {
           </div>
 
           <div className="hero-copy reveal is-visible">
-            <p className="eyebrow">Junior accountant · Toronto, Ontario</p>
+            <p className="eyebrow">Junior accountant &middot; Toronto, Ontario</p>
             <h1 id="hero-title">
               Bringing accuracy, clarity, and thoughtful analysis to every close.
             </h1>
             <p className="hero-intro">
-              I’m Saarah, an Honours BCom Accounting graduate with hands-on
+              I&apos;m Saarah, an Honours BCom Accounting graduate with hands-on
               experience in financial reporting, reconciliations, budgeting,
               tax preparation, SAP transactions, and executive finance support.
             </p>
-            <div className="hero-actions" aria-label="Contact and résumé actions">
+            <div className="hero-actions" aria-label="Contact and resume actions">
               <a className="button button-primary" href={emailUrl}>
-                Start a conversation <span aria-hidden="true">↗</span>
+                Start a conversation <span aria-hidden="true">&nearr;</span>
               </a>
               <a
                 className="button button-secondary"
                 href="/documents/Saarah-Adnan-Resume.pdf"
                 download
               >
-                View résumé <span aria-hidden="true">↓</span>
+                View r&eacute;sum&eacute; <span aria-hidden="true">&darr;</span>
               </a>
             </div>
             <div className="availability">
@@ -432,13 +432,13 @@ export default function Home() {
             <div className="profile-columns">
               <p>
                 At Kinectrics, I worked across corporate reporting, forecasting,
-                CAPEX, procurement, and month-end support—while handling
+                CAPEX, procurement, and month-end support&mdash;while handling
                 confidential documentation and high-priority coordination for
                 the CFO. That experience strengthened both my accounting
                 judgement and my ability to keep complex work moving.
               </p>
               <p>
-                I’m now seeking a Junior Accountant, Staff Accountant,
+                I&apos;m now seeking a Junior Accountant, Staff Accountant,
                 Accounting Assistant, Accounts Payable, or entry-level Financial
                 Analyst role where I can contribute from day one and continue
                 progressing toward the CPA designation.
@@ -446,7 +446,7 @@ export default function Home() {
             </div>
             <div className="profile-signoff">
               <span>Saarah Adnan</span>
-              <small>BCom, Accounting · Humber Polytechnic</small>
+              <small>BCom, Accounting &middot; Humber Polytechnic</small>
             </div>
           </div>
         </section>
@@ -552,8 +552,8 @@ export default function Home() {
             <article className="education-card reveal">
               <p className="card-kicker">Education</p>
               <h3>Honours Bachelor of Commerce in Accounting</h3>
-              <p className="education-school">Humber Polytechnic · Toronto, Ontario</p>
-              <p className="education-period">Jan 2023 — Apr 2026</p>
+              <p className="education-school">Humber Polytechnic &middot; Toronto, Ontario</p>
+              <p className="education-period">Jan 2023 &mdash; Apr 2026</p>
               <div className="coursework">
                 <span>Advanced Financial Accounting</span>
                 <span>Auditing & Assurance</span>
@@ -567,14 +567,14 @@ export default function Home() {
             <div className="recognition-stack">
               <article className="recognition-card reveal">
                 <p className="card-kicker">Recognition</p>
-                <h3>Dean’s Honour List</h3>
+                <h3>Dean&apos;s Honour List</h3>
                 <p>Recognized three times by Humber Polytechnic for academic excellence.</p>
               </article>
               <article className="recognition-card reveal">
                 <p className="card-kicker">LinkedIn certifications</p>
                 <h3>Excel & generative AI</h3>
                 <p>
-                  Excel: Advanced Formatting Techniques · Leveraging Generative
+                  Excel: Advanced Formatting Techniques &middot; Leveraging Generative
                   AI in Finance and Accounting
                 </p>
               </article>
@@ -588,9 +588,9 @@ export default function Home() {
 
           <figure className="recommendation reveal">
             <blockquote>
-              “Saarah is always eager to assist with any task and gives full
-              dedication to her work, which leads to great results. She’s a
-              valuable contributor to any team she is a part of.”
+              &ldquo;Saarah is always eager to assist with any task and gives full
+              dedication to her work, which leads to great results. She&apos;s a
+              valuable contributor to any team she is a part of.&rdquo;
             </blockquote>
             <figcaption>
               <strong>Raj Parmar, CPA, CMA, MBA</strong>
@@ -601,10 +601,10 @@ export default function Home() {
 
         <section className="contact section" id="contact" aria-labelledby="contact-title">
           <div className="contact-copy reveal">
-            <p className="eyebrow">Let’s connect / 06</p>
+            <p className="eyebrow">Let&apos;s connect / 06</p>
             <h2 id="contact-title">Looking for someone who cares about the details?</h2>
             <p>
-              I’d be glad to discuss junior accounting, finance, accounts
+              I&apos;d be glad to discuss junior accounting, finance, accounts
               payable, or accounting support opportunities in Toronto and the GTA.
             </p>
           </div>
@@ -612,7 +612,7 @@ export default function Home() {
             <a className="contact-link" href={emailUrl}>
               <span>Email</span>
               <strong>saarahadnan35146@gmail.com</strong>
-              <span aria-hidden="true">↗</span>
+              <span aria-hidden="true">&nearr;</span>
             </a>
             <a
               className="contact-link"
@@ -622,16 +622,16 @@ export default function Home() {
             >
               <span>LinkedIn</span>
               <strong>linkedin.com/in/saarah-adnan</strong>
-              <span aria-hidden="true">↗</span>
+              <span aria-hidden="true">&nearr;</span>
             </a>
             <a
               className="contact-link"
               href="/documents/Saarah-Adnan-Resume.pdf"
               download
             >
-              <span>Résumé</span>
+              <span>R&eacute;sum&eacute;</span>
               <strong>Download PDF</strong>
-              <span aria-hidden="true">↓</span>
+              <span aria-hidden="true">&darr;</span>
             </a>
           </div>
         </section>
@@ -641,8 +641,8 @@ export default function Home() {
         <a className="monogram monogram-footer" href="#top" aria-label="Back to top">
           SA
         </a>
-        <p>Junior Accountant · Toronto, Ontario</p>
-        <p>© {new Date().getFullYear()} Saarah Adnan</p>
+        <p>Junior Accountant &middot; Toronto, Ontario</p>
+        <p>&copy; {new Date().getFullYear()} Saarah Adnan</p>
       </footer>
     </>
   );
